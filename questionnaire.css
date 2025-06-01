@@ -124,9 +124,8 @@ img {
   text-align: center;
 }
 
-label {
+.questionnaire-form label {
   color: #1c8c12;
-  text-align: center;
 }
 
 @media (max-width: 700px) {
