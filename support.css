@@ -119,6 +119,11 @@ img {
   height: auto;
 }
 
+#form-message {
+  color: #ffffff;
+  text-align: center;
+}
+
 @media (max-width: 700px) {
   header {
     display: flex;
