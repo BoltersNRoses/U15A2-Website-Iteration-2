@@ -20,7 +20,8 @@ header {
 }
 
 header h1 {
-  color: #0c4607;
+  color: #196912;
+  text-align: center;
 }
 
 nav {
@@ -47,7 +48,7 @@ main {
 }
 
 #main-left {
-  border-right: 1px solid #ffffff;
+  border-right: 1px solid #051c03;
   background: #051c03;
 }
 
@@ -65,7 +66,7 @@ footer {
 
 #copyright-left {
   font-size: 0.9em;
-  color: #000000;
+  color: #ffffff;
 }
 
 #sponsor-right img {
