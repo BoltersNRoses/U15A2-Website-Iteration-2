@@ -124,6 +124,11 @@ img {
   text-align: center;
 }
 
+label {
+  color: #1c8c12;
+  text-align: center;
+}
+
 @media (max-width: 700px) {
   header {
     display: flex;
