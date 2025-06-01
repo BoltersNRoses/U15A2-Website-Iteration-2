@@ -66,6 +66,11 @@ main {
   background: #051c03;
 }
 
+#main-left h2 {
+  color: #1c8c12;
+  text-align: center;
+}
+
 #main-right {
   background: #1b6464;
 }
