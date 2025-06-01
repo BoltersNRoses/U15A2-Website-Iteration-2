@@ -117,7 +117,7 @@ img {
   height: auto;
 }
 
-.question input {
+.question label {
   color: #1c8c12;
   text-align: center;
 }
