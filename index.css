@@ -15,24 +15,24 @@ html, body {
 }
 
 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background: #1b6464;
   padding: 1em 0;
 }
 
-header h1 {
+#header-left h1 {
   color: #1c8c12;
-  text-align: left;
-  margin-left: 25%;
 }
 
-nav {
+#header-right nav {
   display: flex;
-  justify-content: flex-end;
   gap: 1em;
   align-items: center;
 }
 
-nav a {
+#header-right nav a {
   padding: 0.5em;
   text-align: center;
 }
@@ -100,6 +100,10 @@ img {
   footer {
     display: flex;
     flex-direction: column;
+  }
+
+  header, main, footer {
+    margin-bottom: 1em;
   }
 
   #copyright-left {
