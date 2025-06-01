@@ -117,7 +117,7 @@ img {
   height: auto;
 }
 
-.question label {
+.question label span {
   color: #1c8c12;
   text-align: center;
 }
@@ -125,7 +125,9 @@ img {
 .quiz-container {
   display: flex;
   justify-content: center;
-  flex: 1;
+  flex-direction: column;
+  width: 100%;
+  
 }
 
 @media (max-width: 700px) {
