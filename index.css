@@ -64,6 +64,9 @@ main {
 #main-left {
   border-right: 1px solid #051c03;
   background: #051c03;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #main-left h2 {
