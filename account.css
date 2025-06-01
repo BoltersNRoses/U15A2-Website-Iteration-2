@@ -71,6 +71,11 @@ main {
   text-align: center;
 }
 
+#main-left p {
+  color: #1c8c12;
+  text-align: center;
+}
+
 #main-right {
   background: #1b6464;
 }
@@ -107,6 +112,11 @@ footer {
 img {
   max-width: 100%;
   height: auto;
+}
+
+#account-form {
+  color: #1c8c12;
+  text-align: center;
 }
 
 @media (max-width: 700px) {
