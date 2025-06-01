@@ -124,6 +124,7 @@ img {
   background-color: #4fa96b;
   color: #1c8c12;
   align-self: center;
+  margin-bottom: 16px;
 }
 
 @media (max-width: 700px) {
