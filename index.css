@@ -48,6 +48,11 @@ main {
 
 #main-left {
   border-right: 1px solid #ffffff;
+  background: #051c03;
+}
+
+#main-right {
+  background: #1b6464;
 }
 
 footer {
