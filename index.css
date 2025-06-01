@@ -27,8 +27,9 @@ header {
 }
 
 #header-left h1 {
+  text-shadow: 2px 2px;
   color: #1c8c12;
-  margin: 0 auto;
+  text-align: center;
 }
 
 #header-right nav {
