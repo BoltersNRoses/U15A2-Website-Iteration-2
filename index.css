@@ -30,12 +30,13 @@ header {
 
 #header-right {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   flex: 1;
 }
 
 #header-left h1 {
   color: #1c8c12;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 #header-right nav {
