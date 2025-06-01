@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Cascadia Code', Cascadia Code;
+  background: #ffffff;
+}
+
+.index-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1b6464;
+  padding: 1em 0;
+}
+
+#header-left {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+#header-right {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+#header-left h1 {
+  color: #1c8c12;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#header-right nav {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+#header-right nav a {
+  padding: 0.5em;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
+
+#main-left,
+#main-right {
+  flex: 1;
+  padding: 1em;
+}
+
+#main-left {
+  border-right: 1px solid #051c03;
+  background: #051c03;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-left h2 {
+  color: #1c8c12;
+  text-align: center;
+}
+
+#main-left p {
+  color: #1c8c12;
+  text-align: center; 
+}
+
+#main-right {
+  background: #1b6464;
+}
+
+#main-right h2 {
+  color: #1c8c12;
+  text-align: center;
+}
+
+#main-right p {
+  color: #1c8c12;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background: #0B3131;
+}
+
+#copyright-left {
+  font-size: 0.9em;
+  color: #ffffff;
+}
+
+#sponsor-right img {
+  height: 80px;
+  width: 80px;
+  object-fit: contain;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 700px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #main-left {
+    border-right: none;
+    border-bottom: 1px solid #ffffff;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header, main, footer {
+    margin-bottom: 1em;
+  }
+
+  #copyright-left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #sponsor-right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5em;
+  }
+
+  header h1 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 0.5em;
+    word-break: break-word;
+  }
+}
