@@ -141,7 +141,7 @@ img {
   align-items: center;
 }
 
-#submit {
+#courseForm {
   display: flex;
   flex-direction: column;
   align-items: center;
